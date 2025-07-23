@@ -2,10 +2,150 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=https://mugeshbabu-map.github.io/mugeshbabu-website-frontend/" />
-    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mugeshbabu Arulmani</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+      <script src="e.js"></script>
+      <script data-ad-client="ca-pub-3198016437808117" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+      }
+      body {
+        background-color: #0f0f0f;
+        color: #e0e0e0;
+        line-height: 1.6;
+      }
+      header {
+        padding: 2rem;
+        text-align: center;
+      }
+      header img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+      }
+      h1 {
+        font-size: 2rem;
+        color: #00ff7f;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 1.5rem;
+        padding: 1rem 0;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      section {
+        max-width: 800px;
+        margin: auto;
+        padding: 2rem 1rem;
+      }
+      .highlight {
+        color: #00ff7f;
+      }
+      .card {
+        background: #1a1a1a;
+        padding: 1.5rem;
+        border-radius: 12px;
+        margin-bottom: 1.5rem;
+      }
+      footer {
+        background: #111;
+        text-align: center;
+        padding: 2rem 1rem;
+        color: #777;
+      }
+      .social-links a {
+        color: #00ff7f;
+        margin: 0 0.5rem;
+        font-size: 1.2rem;
+      }
+    </style>
   </head>
   <body>
-    <p>If you are not redirected, <a href="https://mugeshbabu-map.github.io/mugeshbabu-website-frontend/">click here</a>.</p>
+    <header>
+      <img src="images/mb_img.jpg" alt="Mugeshbabu" />
+      <h1>Mugeshbabu Arulmani</h1>
+      <p>Engineer | Developer | AI Enthusiast | Creator</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="about">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>
+          I'm an <span class="highlight">Electronics and Communication Engineering</span> graduate from Sona College of Technology with a CGPA of <span class="highlight">9.06/10</span>. Passionate about <span class="highlight">web & app development</span>, <span class="highlight">UI/UX design</span>, and <span class="highlight">AI/ML</span>. I enjoy building impactful solutions and love working on projects that challenge me to grow.
+        </p>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="card">
+        <h2>Education</h2>
+        <p><strong>B.E. - Electronics & Communication</strong><br>Sona College of Technology<br><span class="highlight">CGPA: 9.06/10</span> | 2018 - 2022</p>
+        <br>
+        <p><strong>Higher Secondary</strong><br>Sri Vijay Vidhyalaya (State Board), 2018<br><span class="highlight">86.50%</span></p>
+        <p><strong>SSLC</strong><br>Sri Vijay Vidhyalaya (State Board), 2016<br><span class="highlight">96.40%</span></p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="card">
+        <h2>Skills</h2>
+        <ul>
+          <li>UI/UX Design</li>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Web & App Development</li>
+          <li>Artificial Intelligence</li>
+          <li>Machine Learning</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="card">
+        <h2>Projects & Work</h2>
+        <p><a href="https://github.com/MUGESHBABU-MAP" target="_blank">GitHub Profile</a></p>
+        <p><a href="https://play.google.com/store/apps/developer?id=MUGESHBABU+ARULMANI" target="_blank">Google Play Store Apps</a></p>
+        <p>Projects range from AI-driven Flask apps to IoT-based surveillance systems.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="card">
+        <h2>Contact</h2>
+        <p>Email: mugesharul1301@gmail.com</p>
+        <p>Phone: +91 80728 88085</p>
+        <p>Location: Dharmapuri, Tamil Nadu</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/mugeshbabu-a-6313161a8" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/mugeshbabu.in" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/mugeshbabu_a" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Mugeshbabu Arulmani. All rights reserved.</p>
+    </footer>
   </body>
 </html>
